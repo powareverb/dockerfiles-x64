@@ -1,3 +1,6 @@
+#sudo docker build -t mono-nginx-test .
+#sudo docker run -name test -i -t mono-nginx-test
+
 FROM seif/docker-mono-fastcgi-nginx
 #ADD buildOutput/website /var/www/
 RUN mkdir -p /var/www
